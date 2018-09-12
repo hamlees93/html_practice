@@ -1,0 +1,43 @@
+body {
+    height: auto;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-image: url('new_building.jpg');
+    background-size: cover;
+}
+
+nav { 
+    background-attachment: fixed;
+    background-color: transparent;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav
+
+#diamond-1 {
+    padding-left: 550px;
+    height: 150px;
+    width: 150px;
+    background-color: #cc1818;
+    transform: rotate(45deg);
+}
+
+#diamond-2 {
+    height: 150px;
+    width: 150px;
+    background-color: #ccccdd;
+    transform: rotate(45deg);
+}
