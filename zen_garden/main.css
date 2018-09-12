@@ -1,0 +1,80 @@
+body {
+    background-image: url('garden.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+}
+
+
+h2, h3 {
+    font-family: 'Gamja Flower', cursive;
+}
+
+/* Pushes main down, out of the screen */
+.intro {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns:  75vh auto auto 25vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.intro h1 {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 4em;
+}
+
+.summary {
+    padding-top: 35vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.preamble {
+    padding-top: 5vh;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: #F2E29F;
+    border: 2px;
+}
+
+
+
+/* Create a grid system for the body */
+.main {
+    display: grid;
+    grid-template-columns:  20vh auto 20vh;
+    /* background: linear-gradient(90deg, #F2E29F 75%, #00FFFF 25%); */
+    /* background-color: #F2E29F; */
+    /* padding: 10px; */
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+
+footer, .explanation, .benefits {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-left: 5vh;
+    padding-right: 35vh;
+    background: linear-gradient(90deg, #F2E29F 80%, #00FFFF 20%);
+    box-shadow: 10px 15px;
+}
+
+.participation, .requirements {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-left: 35vh;
+    padding-right: 5vh;
+    background: linear-gradient(90deg, rgb(185, 242, 159) 20%, #ffffff 80%);
+    box-shadow: 10px 15px;
+}
+
+
+
+
+
