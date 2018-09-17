@@ -1,0 +1,127 @@
+/* START NAVBAR */
+header {
+  background: transparent;
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99; }
+
+nav {
+  float: left;
+  padding: 20px 20px 0 20px; }
+
+nav ul {
+  list-style: none;
+  display: none; }
+
+nav ul li {
+  text-align: left;
+  width: 100%;
+  padding: 5px 0;
+  margin: 0; }
+
+nav ul a {
+  color: #4C9CF1;
+  font-weight: bold;
+  text-decoration: none;
+  /* padding: 10px 0px; */
+  font-size: 2em; }
+
+nav a:hover {
+  color: #444; }
+
+/* ############ */
+/* Make the image a square, then set border-radius to 50%, so the menu only drops down directly over the hamburger */
+/* ############ */
+#hamburger_icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("hamburger.png") center; }
+
+a:hover#hamburger_icon {
+  background-image: url("hamburger_animated.png"); }
+
+nav:hover ul {
+  display: block;
+  list-style-type: none;
+  text-align: left; }
+
+/* END NAVBAR */
+/* Search icon */
+main i {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  size: 2em; }
+
+/* End search icon */
+/* Creating a class for all fixed bg images */
+.fixed-bg {
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/* Setting the style for the landing page. Setting a fixed background image */
+.top-section {
+  /* background-color: #6fa8dc; */
+  background-image: url("placeholder.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap; }
+
+/* Setting the style for the pages without a fixed background */
+.scroll-section {
+  min-height: 100vh;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2; }
+
+/* Section showing recent activity */
+/* 3 posts within the section */
+.recent-activity {
+  background-color: #b4d7a8;
+  color: #3d3536;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(2, 45%);
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center; }
+
+/* ######################## */
+/* MAKE IT SO ITS 3 IMAGES ACROSS THE TOP, WITH 3 TEXT BOXES UNDERNEATH */
+/* MAYBE USE GRID? */
+/* ######################## */
+.recent-activity p {
+  text-align: center; }
+
+/* ########################### */
+/* Better name for this when we know whats going there */
+.bottom-section {
+  background-image: url("placeholder2.jpg"); }
+
+/* ############################## */
+/* Once again, better name when we know whats going to be there */
+/* In the final section, have 2 rows, a big one and a small one, and have the socials and copyright in the small one */
+/* ################################## */
+.final-info {
+  background-color: #3d3536;
+  color: #a6989a;
+  display: grid;
+  /* grid-template-columns: ; */
+  grid-template-rows: 80% 20%; }
+
+.final-info .footer {
+  background: #4C9CF1; }
+
+/* 2 other colour schemes */
+/* background-color: #99a478;
+color: #3d3536; */
+
+/*# sourceMappingURL=main.css.map */
